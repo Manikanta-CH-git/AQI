@@ -1,0 +1,13 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Model files
+*.joblib
+*.pkl
