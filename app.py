@@ -239,10 +239,10 @@ def show_history():
 # ==================================================
 def show_future():
     st.title("Future Forecasting")
-    st.markdown("Predicting next **60 minutes** using **6-Step Direct AI Models**")
+    
     
     # Refresh button
-    if st.button("🚀 Run AI Prediction"):
+    if st.button("Run ML Predicition"):
         with st.spinner("Analyzing historical patterns..."):
             
             # 1. Load the "Six Models" File
